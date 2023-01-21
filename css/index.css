@@ -1,0 +1,72 @@
+.lastests-articles {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.article {
+    width: 200px;
+    height: 300px;
+    background: #fefefe;
+    padding: .4em;
+    border-radius: 6px;
+}
+
+.article-image {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 40%;
+    border-radius: 6px 6px 0 0;
+}
+
+.article-image:hover {
+    transform: scale(0.98);
+}
+
+.article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px 6px 0 0;
+}
+
+.article-category {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+}
+
+.article-category:hover {
+    cursor: pointer;
+}
+
+.article-head {
+    font-weight: 600;
+    font-size: 0.9em;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+}
+
+.article-head:hover {
+    cursor: pointer;
+}
+
+.article-author {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.article-author:hover {
+    cursor: pointer;
+}
