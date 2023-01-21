@@ -37,7 +37,7 @@
     text-transform: uppercase;
     font-size: 0.7em;
     font-weight: 600;
-    color: rgb(63, 121, 230);
+    color: #fdc918;
     padding: 10px 7px 0;
 }
 
@@ -65,8 +65,17 @@
 
 .name {
     font-weight: 600;
+    color: #5b4e9b;
 }
 
 .article-author:hover {
     cursor: pointer;
+}
+
+.sub {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
