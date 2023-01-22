@@ -15,12 +15,12 @@
 <body>
     <?php
     include 'import/header.html';
+    include 'import/social.html';
     ?>
     <main>
         <h1>Blog de La Capsule</h1>
         <h2>Les derniers articles</h2>
         <section class="lastests-articles">
-
             <article class="article">
                 <div class="article-image">
                     <img src="assets/uploads/article-1.jpg" alt="">

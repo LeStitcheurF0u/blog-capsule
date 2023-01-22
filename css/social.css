@@ -1,0 +1,161 @@
+#social {
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background: #5b4e9b;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    transform-style: preserve-3d;
+    perspective: 3000px;
+    transition: all .3s ease-in-out;
+}
+
+
+#social i {
+    font-size: 1.5em;
+    color: #fefefe;
+    transition: all .3s ease-in-out;
+}
+
+.socialMedia {
+    position: fixed;
+    top: 0;
+    left: -2000px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(41, 41, 41);
+    opacity: 0;
+    transition: all .7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.socialMedia.show {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+#close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #ee411a;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#close:hover {
+    filter: invert(9);
+}
+
+.sci {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sci .sli {
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sci .sli::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% + 150px));
+    font-size: 4em;
+    pointer-events: none;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .3);
+    transition: .5s;
+    opacity: 0;
+}
+
+.sci .sli:hover::before {
+    opacity: 1;
+    transform: translate(-50%, calc(-50% + 200px));
+}
+
+
+.sci .sli a {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background: #fefefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, .1);
+    transition: all .3s ease-in-out;
+}
+
+.sci .sli a:hover.github {
+    background: #6e5494;
+}
+
+.sci .sli a:hover.linkedin {
+    background: #0077b5;
+}
+
+.sci .sli a:hover.tiktok {
+    background: #1f8f94;
+}
+
+.sci .sli a:hover.discord {
+    background: #5865F2;
+}
+
+.sci .sli a:hover.twitter {
+    background: #1DA1F2;
+}
+
+.sci .sli a:hover.mail {
+    background: #007DBB;
+}
+
+.sci .sli a:hover.youtube {
+    background: #FF0000;
+}
+
+.sci .sli a i {
+    font-size: 4em;
+}
+
+.sci .sli a .fa-brands,
+.sci .sli a .fa-solid {
+    transition: .3s;
+    pointer-events: none;
+}
+
+.sci .sli a:hover .fa-brands,
+.sci .sli a:hover .fa-solid {
+    color: #fff;
+    transform: scale(1.75) translateZ(50px);
+}

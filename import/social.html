@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="../css/social.css">
+
+<aside id="social">
+    <i class="fa-regular fa-hashtag"></i>
+</aside>
+<section class='socialMedia'>
+    <aside id='close'>
+        &#10006;
+    </aside>
+    <ul class="sci">
+        <li class='sli' data-text="@lacapsule" data-color="#6e5494">
+            <a href="https://github.com/lacapsule" target='_blank' class='github'>
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </li>
+        <li class='sli' data-text="La Capsule" data-color="#0077b5">
+            <a href="https://www.linkedin.com/in/la-capsule-9ba316205/" class='linkedin'>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li class='sli' data-text="https://discord.gg/7SAwbWC6ab" data-color="#5865F2">
+            <a href="https://discord.gg/7SAwbWC6ab" class='discord'>
+                <i class="fa-brands fa-discord"></i>
+            </a>
+        </li>
+        <li class='sli' data-text="@LaCapsule_Bzh" data-color="#1DA1F2">
+            <a href="https://twitter.com/LaCapsule_Bzh?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3ALaCapsule_Bzh%7Ctwcon%5Es1_c1" class='twitter'>
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class='sli' data-text="@lacapsule2109" data-color="#FF0000">
+            <a href="https://www.youtube.com/@lacapsule2109" class='youtube'>
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+        </li>
+    </ul>
+</section>
+
+<script src="../assets/js/social.js"></script>
+<script src="../assets/js/vanilla-tilt.min.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".sci .sli a"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+        gyroscope: true,
+    });
+    VanillaTilt.init(document.querySelectorAll("#social"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+    });
+</script>
