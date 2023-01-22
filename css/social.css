@@ -124,20 +124,12 @@
     background: #0077b5;
 }
 
-.sci .sli a:hover.tiktok {
-    background: #1f8f94;
-}
-
 .sci .sli a:hover.discord {
     background: #5865F2;
 }
 
 .sci .sli a:hover.twitter {
     background: #1DA1F2;
-}
-
-.sci .sli a:hover.mail {
-    background: #007DBB;
 }
 
 .sci .sli a:hover.youtube {

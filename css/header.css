@@ -30,10 +30,13 @@ header nav {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
-header nav ul {
+i.mobile {
+    display: none;
+}
+header nav .menu {
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -41,7 +44,7 @@ header nav ul {
     align-items: center;
 }
 
-header nav ul li {
+header nav .menu li {
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -52,7 +55,7 @@ header nav ul li {
 }
 
 
-header nav ul li a {
+header nav .menu li a {
     width: 100%;
     height: 100%;
     font-size: 0.9em;
@@ -60,7 +63,7 @@ header nav ul li a {
     color: #fefefe;
 }
 
-header nav ul li a:hover {
+header nav .menu li a:hover {
     color: #fdc918;
     font-weight: 500;
 }
@@ -94,4 +97,33 @@ header .connection a i {
 
 header .connection a:hover i {
     border-left: 3px solid #fefefe;
+}
+@media screen and (max-width: 900px) {
+    i.mobile {
+        display: block;
+        z-index: 2;
+    }
+    nav{
+        flex-flow: column nowrap;
+    }
+
+    nav .menu {
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background: #5b4e9b;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        opacity: 0;
+        transition: .3s;
+        z-index: 1;
+    }
+    nav .menu.open{
+        height: 100%;
+        top: 34px;
+        opacity: 1;
+    }
 }

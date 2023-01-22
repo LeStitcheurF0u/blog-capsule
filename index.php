@@ -29,7 +29,7 @@
                     <span>Informatique</span>
                 </div>
                 <div class="article-head">
-                    <h2>Titre de l'article</h2>
+                    <h3>Titre de l'article</h3>
                 </div>
                 <div class="article-author">
                     Par <span class='name'>LeStitcheurFou</span>
@@ -44,7 +44,7 @@
                     <span>Linux</span>
                 </div>
                 <div class="article-head">
-                    <h2>Titre de l'article</h2>
+                    <h3>Titre de l'article</h3>
                 </div>
                 <div class="article-author">
                     Par <span class='name'>LeStitcheurFou</span>
@@ -59,7 +59,7 @@
                     <span>Développement Web</span>
                 </div>
                 <div class="article-head">
-                    <h2>Titre de l'article</h2>
+                    <h3>Titre de l'article</h3>
                 </div>
                 <div class="article-author">
                     Par <span class='name'>LeStitcheurFou</span>
@@ -74,7 +74,7 @@
                     <span>Médiation</span>
                 </div>
                 <div class="article-head">
-                    <h2>Titre de l'article</h2>
+                    <h3>Titre de l'article</h3>
                 </div>
                 <div class="article-author">
                     Par <span class='name'>LeStitcheurFou</span>

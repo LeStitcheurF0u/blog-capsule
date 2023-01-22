@@ -1,6 +1,7 @@
 @import url(reset.css);
 @import url(classes);
-
+@import url(footer.css);
+@import url(header.css);
 
 html {
     scroll-behavior: smooth;
@@ -19,6 +20,21 @@ body {
         letter-spacing: 1px;
     background: linear-gradient(45deg, #ffffff, #d4d4d4);
     gap: 30px;
+}
+
+h1 {
+    font-size: 1.1em;
+    color: #fdc918;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h2 {
+    font-size: 0.8em;
+    color: #5b4e9b;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 
