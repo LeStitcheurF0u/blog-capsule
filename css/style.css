@@ -2,6 +2,7 @@
 @import url(classes.css);
 @import url(footer.css);
 @import url(header.css);
+@import url(social.css);
 
 ::selection{
     background: #5b4e9b;

@@ -119,7 +119,7 @@ header .connection a:hover i {
         align-items: center;
         background: #5b4e9b;
         position: fixed;
-        top: 0;
+        top: -30px;
         left: 0;
         width: 100%;
         height: 0;
