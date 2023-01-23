@@ -17,6 +17,6 @@ list.forEach(elements => {
     });
     elements.addEventListener('mouseleave', function (event) {
         let color = event.target.getAttribute('data-color');
-        socialWindow.style.backgroundColor = "#292929";
+        socialWindow.style.backgroundColor = "#5b4e9b";
     });
 })

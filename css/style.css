@@ -1,13 +1,20 @@
 @import url(reset.css);
-@import url(classes);
+@import url(classes.css);
 @import url(footer.css);
 @import url(header.css);
+
+::selection{
+    background: #5b4e9b;
+    color: #ffffff;
+}
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -36,9 +43,6 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-
-
-
 
 main {
     width: 100%;

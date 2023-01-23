@@ -22,7 +22,7 @@
 
 #social i {
     font-size: 1.5em;
-    color: #fefefe;
+    color: #fdc918;
     transition: all .3s ease-in-out;
 }
 
@@ -35,7 +35,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(41, 41, 41);
+    background: #5b4e9b;
     opacity: 0;
     transition: all .7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }

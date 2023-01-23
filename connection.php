@@ -15,6 +15,7 @@
     <?php include 'import/header.html'; ?>
     <main>
         <form action="traitements/login.php" method="post">
+            <h1>Se connecter</h1>
             <div class="input-group">
                 <input class="input" type="email" name="mail" id="mail" placeholder=" ">
                 <label class="placeholder">Mail</label>
@@ -23,7 +24,7 @@
                 <input class="input" type="password" name="password" id="password" placeholder=" ">
                 <label class="placeholder">Mot de passe</label>
             </div>
-            <button type="submit" class="btn">Se connecter</button>
+            <button type="submit" class="btn-link">Se connecter</button>
         </form>
     </main>
     <?php include 'import/footer.html'; ?>

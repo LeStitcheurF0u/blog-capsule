@@ -74,15 +74,21 @@ header .connection {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-
 }
 
 
 header .connection a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
     font-size: 14px;
     text-decoration: none;
     color: #fefefe;
     padding: 0 10px;
+    gap: 8px;
 }
 
 header .connection a:hover {
