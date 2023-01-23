@@ -3,6 +3,7 @@
 @import url(footer.css);
 @import url(header.css);
 @import url(social.css);
+@import url(animations.css);
 
 ::selection{
     background: #5b4e9b;
@@ -26,7 +27,12 @@ body {
         'Helvetica Neue',
         sans-serif;
         letter-spacing: 1px;
-    background: linear-gradient(45deg, #ffffff, #d4d4d4);
+    background: linear-gradient(45deg,
+     hsl(0, 0%, 100%),
+     hsl(0, 0%, 80%),
+     hsl(0, 0%, 60%),
+     hsl(0, 0%, 50%));
+    animation: AnimateBG 20s ease-in-out infinite;
     gap: 30px;
 }
 
