@@ -26,13 +26,14 @@ body {
         'Open Sans',
         'Helvetica Neue',
         sans-serif;
-        letter-spacing: 1px;
-    background: linear-gradient(45deg,
-     hsl(0, 0%, 100%),
-     hsl(0, 0%, 80%),
-     hsl(0, 0%, 60%),
-     hsl(0, 0%, 50%));
-    animation: AnimateBG 20s ease-in-out infinite;
+    letter-spacing: 1px;
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg,
+                    rgb(226, 226, 226) 0%,
+                    rgb(212, 212, 212) 25%,
+                    rgb(209, 209, 209) 51%,
+                    rgb(211, 211, 211) 100%);
+    animation: AnimateBG 10s ease infinite;
     gap: 30px;
 }
 

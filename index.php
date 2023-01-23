@@ -22,65 +22,74 @@
         <h2>Les derniers articles</h2>
         <section class="lastests-articles">
             <article class="article">
-                <div class="article-image">
-                    <img src="assets/uploads/article-1.jpg" alt="">
-                </div>
-                <div class="article-category">
-                    <span>Informatique</span>
-                </div>
-                <div class="article-head">
-                    <h3>Titre de l'article</h3>
-                </div>
-                <div class="article-author">
-                    Par <span class='name'>LeStitcheurFou</span>
-                    Il y a <strong>10 heures</strong>
-                </div>
+                <a href="">
+                    <div class="article-image">
+                        <img src="assets/uploads/article-1.webp" alt="">
+                    </div>
+                    <div class="article-category">
+                        <span>Informatique</span>
+                    </div>
+                    <div class="article-head">
+                        <h3>Titre de l'article</h3>
+                    </div>
+                    <div class="article-author">
+                        Par <span class='name'>LeStitcheurFou</span>
+                        Il y a <strong>10 heures</strong>
+                    </div>
+                </a>
             </article>
             <article class="article">
-                <div class="article-image">
-                    <img src="assets/uploads/article-1.jpg" alt="">
-                </div>
-                <div class="article-category">
-                    <span>Linux</span>
-                </div>
-                <div class="article-head">
-                    <h3>Titre de l'article</h3>
-                </div>
-                <div class="article-author">
-                    Par <span class='name'>LeStitcheurFou</span>
-                    Il y a <strong>10 heures</strong>
-                </div>
+                <a href="">
+                    <div class="article-image">
+                        <img src="assets/uploads/article-1.webp" alt="">
+                    </div>
+                    <div class="article-category">
+                        <span>Linux</span>
+                    </div>
+                    <div class="article-head">
+                        <h3>Titre de l'article</h3>
+                    </div>
+                    <div class="article-author">
+                        Par <span class='name'>LeStitcheurFou</span>
+                        Il y a <strong>10 heures</strong>
+                    </div>
+                </a>
             </article>
             <article class="article">
-                <div class="article-image">
-                    <img src="assets/uploads/article-1.jpg" alt="">
-                </div>
-                <div class="article-category">
-                    <span>Développement Web</span>
-                </div>
-                <div class="article-head">
-                    <h3>Titre de l'article</h3>
-                </div>
-                <div class="article-author">
-                    Par <span class='name'>LeStitcheurFou</span>
-                    Il y a <strong>10 heures</strong>
-                </div>
+                <a href="">
+                    <div class="article-image">
+                        <img src="assets/uploads/article-1.webp" alt="">
+                    </div>
+                    <div class="article-category">
+                        <span>Sortie</span>
+                    </div>
+                    <div class="article-head">
+                        <h3>Titre de l'article</h3>
+                    </div>
+                    <div class="article-author">
+                        Par <span class='name'>LeStitcheurFou</span>
+                        Il y a <strong>10 heures</strong>
+                    </div>
+                </a>
             </article>
             <article class="article">
-                <div class="article-image">
-                    <img src="assets/uploads/article-1.jpg" alt="">
-                </div>
-                <div class="article-category">
-                    <span>Médiation</span>
-                </div>
-                <div class="article-head">
-                    <h3>Titre de l'article</h3>
-                </div>
-                <div class="article-author">
-                    Par <span class='name'>LeStitcheurFou</span>
-                    Il y a <strong>10 heures</strong>
-                </div>
+                <a href="">
+                    <div class="article-image">
+                        <img src="assets/uploads/article-1.webp" alt="">
+                    </div>
+                    <div class="article-category">
+                        <span>Médiation</span>
+                    </div>
+                    <div class="article-head">
+                        <h3>Titre de l'article</h3>
+                    </div>
+                    <div class="article-author">
+                        Par <span class='name'>LeStitcheurFou</span>
+                        Il y a <strong>10 heures</strong>
+                    </div>
+                </a>
             </article>
+
         </section>
         <a class="btn-link" href="articles.php">Voir tous les articles</a>
         <h2>Notre fil twitter</h2>

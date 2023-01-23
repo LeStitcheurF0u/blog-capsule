@@ -33,6 +33,7 @@ form {
     top: 15px;
     left: 8px;
     font-size: 14px;
+    font-weight: 700;
     padding: 0 5px;
     color: #5b4e9b;
     transition: 0.3s;
@@ -42,4 +43,6 @@ form {
 .input:focus + .placeholder,
 .input:not(:placeholder-shown) + .placeholder {
     top: -10px;
+    font-size: 13px;
+    font-weight: 500;
 }
