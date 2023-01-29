@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/classes.css">
     <title>Blog de La Capsule - Accueil</title>
+    <meta name="description" content="Blog de La Capsule">
+    <meta name="keywords" content="Blog, La Capsule, Linux, Informatique, Tutoriel, Article">
+    <meta name="author" content="LeStitcheurFou">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css" integrity="sha512-UiVP2uTd2EwFRqPM4IzVXuSFAzw+Vo84jxICHVbOA1VZFUyr4a6giD9O3uvGPFIuB2p3iTnfDVLnkdY7D/SJJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -97,10 +104,16 @@
             <a class="twitter-timeline" data-lang="fr" data-width="700" data-height="400" data-theme="dark" href="https://twitter.com/LaCapsule_Bzh?ref_src=twsrc%5Etfw">Tweets by LaCapsule_Bzh</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </section>
+
+        <h2>Les dernières videos</h2>
+        <section class="videoList">
+            <?php include 'import/yt.php'; ?>
+        </section>
     </main>
     <?php
     include 'import/footer.html';
     ?>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js" integrity="sha512-UU0D/t+4/SgJpOeBYkY+lG16MaNF8aqmermRIz8dlmQhOlBnw6iQrnt4Ijty513WB3w+q4JO75IX03lDj6qQNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </html>
