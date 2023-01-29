@@ -1,5 +1,7 @@
 <?php
 
+require 'vendor/autoload.php';
+
 $apiKey = "AIzaSyAPybXLh-R2JH3YEa_WBJhqF4Z5G0F3Fuo";
 $channelID = "UC3a2o7gpjHwJnpHAZZAsixw";
 $maxResults = 4;
