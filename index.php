@@ -106,9 +106,10 @@
         </section>
 
         <h2>Les dernières videos</h2>
-        <section class="videoList">
+        <section class="videoList" id="blogVideo">
             <?php include 'import/yt.php'; ?>
         </section>
+        <a href="https://www.youtube.com/@lacapsule2109" class="btn-link">Voir toutes les videos</a>
     </main>
     <?php
     include 'import/footer.html';
